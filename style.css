@@ -47,7 +47,6 @@ html {
     font-size: 3rem;
     letter-spacing: .2rem;
     text-transform: uppercase;
-    margin-bottom: 1rem;
     font-weight: 400;
 }
 
@@ -71,9 +70,6 @@ html {
     
 }
 
-.month p {
-    font-size: 1.6rem;
-}
 
 .days {
     display: flex;
