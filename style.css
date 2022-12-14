@@ -79,4 +79,31 @@ html {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    padding: .2rem;
+}
+
+.days div:hover:not(.today) {
+    background-color: #88A47C;
+    border: .2rem solid black;
+    cursor: pointer;
+}
+
+.days div {
+    font-size: 1.4rem;
+    margin: .3rem;
+    width: calc(40.2rem/7);
+    height: 5rem;
+    text-shadow: 0 0.3rem .5rem black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.previous-date, .nextDate {
+    opacity: .4;
+}
+
+.today {
+    background-color: #88A47C;
 }
